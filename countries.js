@@ -16,7 +16,7 @@ const displayCountries = (countries) => {
                         <h3>${country.name}</h3>
                         <p>Capital: ${country.capital}</p>
                          <br/>
-                        <button onclick="countryDetails('${country.name}')" type="button" class="btn btn-info mt-3">See Flag</button>
+                        <button onclick="countryDetails('${country.name}')" type="button" class="btn btn-danger mt-3">See Flag</button>
 
                 `;
                 countriesContainer.appendChild(div);
